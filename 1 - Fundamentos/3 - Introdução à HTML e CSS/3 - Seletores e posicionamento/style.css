@@ -1,7 +1,23 @@
-div:hover {
-    border: 3px solid green;
+table, td {
+    border: 1px solid #333;
 }
 
-div:nth-child(1) {
-    border: 3px solid red;
+thead, tfoot {
+    background-color: #333;
+    color: #fff;
 }
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+  }

@@ -1,10 +1,13 @@
-const myName = "Raoni";
-const birthCity = "Belo Horizonte";
-let birthYear = 1996;
-birthYear = 2030;
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+console.log(numbers);
+let soma = 0;
 
+// for (let index = 0; index < numbers.length; index += 1) {
+//     console.log(numbers[index])
+// }
 
-console.log(myName);
-console.log(birthCity);
-console.log(birthYear);
+for (let index = 0; index < numbers.length; index += 1) {
+    soma += numbers[index];
+}
 
+console.log(soma);

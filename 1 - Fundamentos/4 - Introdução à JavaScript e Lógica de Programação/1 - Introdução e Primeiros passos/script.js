@@ -1,18 +1,25 @@
-// Exercício 6
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let impares = 0;
+let menorNumero = 9999;
+
 
 for (let index = 0; index < numbers.length; index += 1) {
-    if (numbers[index] % 2 > 0) {
-        impares += 1;    
+    if (numbers[index] < menorNumero) {
+        menorNumero = numbers[index]
     }
 }
-
-console.log(impares);
-
+console.log(menorNumero);
 
 
+// Exercício 6
+// let impares = 0;
 
+// for (let index = 0; index < numbers.length; index += 1) {
+//     if (numbers[index] % 2 > 0) {
+//         impares += 1;    
+//     }
+// }
+
+// console.log(impares);
 
 // Exercício 5
 // let maiorNumero = 0;

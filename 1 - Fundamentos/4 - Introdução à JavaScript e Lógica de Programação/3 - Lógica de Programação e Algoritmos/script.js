@@ -1,54 +1,44 @@
-// let player = {
-//     name: "Marta",
-//     lastName: "Silva",
-//     age: 34,
-//     medals: {
-//         golden: 2,
-//         silver: 3
-//     },
-//     bestInWorld: [2006, 2007, 2008, 2009, 2010, 2018]
+// let info = {
+//   personagem: 'Margarida',
+//   origem: 'Pato Donald',
+//   nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+//   recorrente: 'Sim'
 // };
 
-// console.log("A jogadora " + player.name + " " + player.lastName + " " + "tem " + player.age + " " + "anos de idade.");
+// console.log('Bem-vinda, ' + info.personagem);
 
-// console.log("A jogadora " + player.name + " " + player.lastName + " " + "foi eleita a melhor do mundo 6 vezes. " + player.bestInWorld + ".")
-
-// console.log("A jogadora " + player.name + " " + player.lastName + " " + "possui " + player.medals.golden + " " + "medalhas de ouro e " + player.medals.silver + " " + "medalhas de prata.")
-
-
-// let cars = ['Saab', 'Volvo', 'BMW', 'Peugeot'];
-
-// for (let index in cars) {
-//   console.log(index, cars[index]);
+// for (let index in info) {
+//  console.log(info[index]);
 // }
 
-// let car = {
-//     type: 'Fiat',
-//     model: '500',
-//     color: 'white',
-//   };
-  
-//   for (let index in car) {
-//     console.log(index, car[index]);
-//   }
 
 
-//   let names = {
-//     person1: 'João',
-//     person2: 'Maria',
-//     person3: 'Jorge',
-//   };
+// let info2 = {
+//   personagem: 'Tio Patinhas',
+//   origem: "Christmas on Bear Mountain, Dell's Four Color Comics #178",
+//   nota: 'O último MacPatinhas',
+//   recorrente: 'Sim'
+// };
 
-//   for (let index in names) {
-//     console.log("Olá, " + names[index] + "!")
-//   }
+// console.log(info.personagem + ' e ' + info2.personagem);
+// console.log(info.origem + ' e ' + info2.origem);
+// console.log(info.nota + ' e '+ info2.nota);
+// console.log('Ambos recorrentes // Atenção para essa última linha!');
 
-  let car = {
-    model: 'A3 Sedan',
-    manufacturer: 'Audi',
-    year: 2020
-  };
 
-  for (let index in car) {
-      console.log(index, car[index])
-  }
+let leitor = {
+  nome: 'Julia',
+  sobrenome: 'Pessoa',
+  idade: 21,
+  livrosFavoritos: [
+    {
+      titulo: 'O Pior Dia de Todos',
+      autor: 'Daniela Kopsch',
+      editora: 'Tordesilhas',
+    },
+  ],
+};
+
+let infoLivros = 'livrosFavoritos';
+
+console.log('O livro favorito de ' + leitor.nome + ' ' + leitor.sobrenome + ' se chama ' + leitor.livrosFavoritos.titulo);

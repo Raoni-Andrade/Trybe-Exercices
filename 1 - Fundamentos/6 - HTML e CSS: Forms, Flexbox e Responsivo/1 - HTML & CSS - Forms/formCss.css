@@ -1,0 +1,32 @@
+#texto {
+    display: block;
+}
+
+.initialDiv {
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.btn {
+    border-radius: 15%;
+}
+
+.divName {
+    padding-bottom: 13px;
+}
+
+.divEmail {
+    padding-bottom: 15px;
+}
+
+.divOption {
+    padding-bottom: 15px;
+}
+
+#texto {
+    padding-bottom: 5px;
+}
+
+.divText {
+    padding-bottom: 10px;
+}
